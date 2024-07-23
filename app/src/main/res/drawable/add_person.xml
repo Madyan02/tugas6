@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Bagian kepala orang -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M12,12 C9.79,12 8,10.21 8,8 C8,5.79 9.79,4 12,4 C14.21,4 16,5.79 16,8 C16,10.21 14.21,12 12,12 Z" />
+
+    <!-- Bagian badan orang -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M12,14 C8.67,14 4,15.34 4,18.67 L4,20 L20,20 L20,18.67 C20,15.34 15.33,14 12,14 Z" />
+
+    <!-- Simbol plus di sebelah kiri kepala -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M4,4 L4,6 L6,6 L6,8 L4,8 L4,10 L2,10 L2,8 L0,8 L0,6 L2,6 L2,4 Z" />
+</vector>

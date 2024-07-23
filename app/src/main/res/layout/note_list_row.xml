@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:paddingBottom="7dp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/delate"/>
+
+        <ImageButton
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/delete"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/edit"/>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/note_list_text"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/noteregis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/note_list_text"
+            android:layout_below="@id/note"
+            android:textSize="@dimen/note_list_text"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/noteemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/note_list_text"
+            android:layout_below="@id/noteregis"
+            android:textSize="@dimen/note_list_text"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/notephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/note_list_text"
+            android:layout_below="@id/noteemail"
+            android:textSize="@dimen/note_list_text"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>
